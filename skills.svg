@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1920px" height="1080px" viewBox="0 0 1920 1080">
+<defs>
+<style type="text/css"> @import url(https://fonts.googleapis.com/css?family=Montserrat:normal:latin-ext); </style>
+</defs>
+<clipPath id="cp1">
+<path d="M 0,0 L 1920,0 L1920,1080 L 0,1080 z M 0,0 L 2400,0 L 2400,1350 L 0,1350 z" fill-rule="evenodd">
+</path>
+</clipPath>
+<g clip-path="url(#cp1)">
+</g>
+<rect x="0" y="0" width="2400" height="1350" opacity="1" fill="#091c2b" stroke="none">
+</rect>
+<text x="-504.04998779296875" y="17.106896000000006" style="font: normal 206.61379200000002px Montserrat" text-anchor="start" dy="81.66553043478262" opacity="1" fill="#6d98ba" stroke="none" transform="translate(960, 540)">Bootstrap</text>
+<text x="-292.2583312988281" y="17.106896000000006" style="font: normal 206.61379200000002px Montserrat" text-anchor="start" dy="81.66553043478262" opacity="1" fill="#6d98ba" stroke="none" transform="translate(992, 416)">HTML</text>
+<text x="-267.7833251953125" y="17.106896000000006" style="font: normal 206.61379200000002px Montserrat" text-anchor="start" dy="81.66553043478262" opacity="1" fill="#3669a2" stroke="none" transform="translate(960, 688)">SASS</text>
+<text x="-200.52499389648438" y="17.106896000000006" style="font: normal 206.61379200000002px Montserrat" text-anchor="start" dy="81.66553043478262" opacity="1" fill="#edecf2" stroke="none" transform="translate(900, 262) rotate(-7.084899961440982)">CSS</text>
+<text x="-148.76666259765625" y="17.106896000000006" style="font: normal 206.61379200000002px Montserrat" text-anchor="start" dy="81.66553043478262" opacity="1" fill="#8793dd" stroke="none" transform="translate(958, 840)">Git</text>
+<text x="-246.89999389648438" y="17.106896000000006" style="font: normal 206.61379200000002px Montserrat" text-anchor="start" dy="81.66553043478262" opacity="1" fill="#edecf2" stroke="none" transform="translate(956, 988)">NPM</text>
+<text x="-436.8416748046875" y="14.82597816093751" style="font: normal 179.06528640000002px Montserrat" text-anchor="start" dy="70.77679304347828" opacity="1" fill="#c1d4f2" stroke="none" transform="translate(964, 110)">Bootstrap</text>
+<text x="-173.7916717529297" y="14.82597816093751" style="font: normal 179.06528640000002px Montserrat" text-anchor="start" dy="70.77679304347828" opacity="1" fill="#6d98ba" stroke="none" transform="translate(1262, 798) rotate(-85.01253979323847)">CSS</text>
+<text x="-128.9250030517578" y="14.82597816093751" style="font: normal 179.06528640000002px Montserrat" text-anchor="start" dy="70.77679304347828" opacity="1" fill="#c1d4f2" stroke="none" transform="translate(1220, 278)">Git</text>
+<text x="-155.875" y="9.123677459765624" style="font: normal 110.19402240000001px Montserrat" text-anchor="start" dy="43.5549495652174" opacity="1" fill="#edecf2" stroke="none" transform="translate(660, 806)">HTML</text>
+<text x="-142.8249969482422" y="9.123677459765624" style="font: normal 110.19402240000001px Montserrat" text-anchor="start" dy="43.5549495652174" opacity="1" fill="#edecf2" stroke="none" transform="translate(594, 886)">SASS</text>
+<text x="-106.95833587646484" y="9.123677459765624" style="font: normal 110.19402240000001px Montserrat" text-anchor="start" dy="43.5549495652174" opacity="1" fill="#c1d4f2" stroke="none" transform="translate(614, 430)">CSS</text>
+<text x="-79.34166717529297" y="9.123677459765624" style="font: normal 110.19402240000001px Montserrat" text-anchor="start" dy="43.5549495652174" opacity="1" fill="#6d98ba" stroke="none" transform="translate(624, 666)">Git</text>
+<text x="-131.69166564941406" y="9.123677459765624" style="font: normal 110.19402240000001px Montserrat" text-anchor="start" dy="43.5549495652174" opacity="1" fill="#8793dd" stroke="none" transform="translate(580, 318) rotate(-32.7973752816631)">NPM</text>
+<text x="-126.00833129882812" y="9.123677459765624" style="font: normal 110.19402240000001px Montserrat" text-anchor="start" dy="43.5549495652174" opacity="1" fill="#8793dd" stroke="none" transform="translate(1338, 422)">BEM</text>
+<text x="-211.4166717529297" y="6.842759620703127" style="font: normal 82.64551680000001px Montserrat" text-anchor="start" dy="32.66621217391305" opacity="1" fill="#edecf2" stroke="none" transform="translate(1360, 826) rotate(-74.96950908563853)">JavaScript</text>
+<text x="-116.90833282470703" y="6.842759620703127" style="font: normal 82.64551680000001px Montserrat" text-anchor="start" dy="32.66621217391305" opacity="1" fill="#6d98ba" stroke="none" transform="translate(612, 958)">HTML</text>
+<text x="-107.10832977294922" y="6.842759620703127" style="font: normal 82.64551680000001px Montserrat" text-anchor="start" dy="32.66621217391305" opacity="1" fill="#edecf2" stroke="none" transform="translate(622, 1022)">SASS</text>
+<text x="-80.19999694824219" y="6.842759620703127" style="font: normal 82.64551680000001px Montserrat" text-anchor="start" dy="32.66621217391305" opacity="1" fill="#edecf2" stroke="none" transform="translate(568, 226)">CSS</text>
+<text x="-59.5" y="6.842759620703127" style="font: normal 82.64551680000001px Montserrat" text-anchor="start" dy="32.66621217391305" opacity="1" fill="#3669a2" stroke="none" transform="translate(798, 282)">Git</text>
+<text x="-105.69166564941406" y="3.4213798103515636" style="font: normal 41.322758400000005px Montserrat" text-anchor="start" dy="16.333106086956526" opacity="1" fill="#c1d4f2" stroke="none" transform="translate(1330, 366)">JavaScript</text>
+<text x="-115.60832977294922" y="3.4213798103515636" style="font: normal 41.322758400000005px Montserrat" text-anchor="start" dy="16.333106086956526" opacity="1" fill="#6d98ba" stroke="none" transform="translate(580, 730)">Responsive</text>
+<text x="-100.79166412353516" y="3.4213798103515636" style="font: normal 41.322758400000005px Montserrat" text-anchor="start" dy="16.333106086956526" opacity="1" fill="#edecf2" stroke="none" transform="translate(764, 190)">Bootstrap</text>
+<text x="-58.44166564941406" y="3.4213798103515636" style="font: normal 41.322758400000005px Montserrat" text-anchor="start" dy="16.333106086956526" opacity="1" fill="#c1d4f2" stroke="none" transform="translate(922, 822)">HTML</text>
+<text x="-53.54999923706055" y="3.4213798103515636" style="font: normal 41.322758400000005px Montserrat" text-anchor="start" dy="16.333106086956526" opacity="1" fill="#8793dd" stroke="none" transform="translate(830, 648) rotate(-43.92297030942255)">SASS</text>
+<text x="-40.099998474121094" y="3.4213798103515636" style="font: normal 41.322758400000005px Montserrat" text-anchor="start" dy="16.333106086956526" opacity="1" fill="#c1d4f2" stroke="none" transform="translate(1076, 350)">CSS</text>
+<text x="-29.75" y="3.4213798103515636" style="font: normal 41.322758400000005px Montserrat" text-anchor="start" dy="16.333106086956526" opacity="1" fill="#6d98ba" stroke="none" transform="translate(960, 488) rotate(-47.825609827624234)">Git</text>
+<text x="-49.36666488647461" y="3.4213798103515636" style="font: normal 41.322758400000005px Montserrat" text-anchor="start" dy="16.333106086956526" opacity="1" fill="#c1d4f2" stroke="none" transform="translate(1122, 782)">NPM</text>
+<text x="-47.24166488647461" y="3.4213798103515636" style="font: normal 41.322758400000005px Montserrat" text-anchor="start" dy="16.333106086956526" opacity="1" fill="#6d98ba" stroke="none" transform="translate(682, 352) rotate(-30.77587157593146)">BEM</text>
+</svg>

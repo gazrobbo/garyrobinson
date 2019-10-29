@@ -1,0 +1,210 @@
+#hero {
+    height: 100vh;
+    width: 100%;
+    background-color: var(--primary-color);
+    display: grid;
+    grid-template-areas: 'nav''text''gap';
+    grid-template-rows: 80px 1fr 20px;
+    background:  var(--primary-color);
+    background-attachment: fixed;
+}
+
+#hero h1 {
+    text-align: center;
+}
+
+#hero h1,
+#hero h2, h2 {    
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.08),
+        0 2px 2px rgba(0, 0, 0, 0.08),
+        0 4px 4px rgba(0, 0, 0, 0.08),
+        0 8px 8px rgba(0, 0, 0, 0.08),
+        0 16px 16px rgba(0, 0, 0, 0.08);
+}
+
+#name {
+    opacity: 0;
+    grid-area: nav;
+    margin: 30px;
+    text-align: left;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 0.174em;
+    animation: namefadein 1s ease-in-out;
+    animation-delay: 2.2s;
+    animation-fill-mode: forwards;   
+}
+#name>a:hover {
+    color: var(--text-color);
+}
+
+#name::after {
+    content: "";
+    height: 2px;
+    width: 70px;
+    background-color: var(--hover-color);
+    display: block;
+    margin-top: 5px;
+    transition: all 0.3s;
+}
+
+#name:hover::after {  
+    width: 120px;
+    background-color: var(--hover-color);  
+}
+
+
+
+
+
+.title-first {
+    opacity: 0;
+    position: relative;
+    font-size: 6vw;
+    letter-spacing: 0.174em;
+    text-transform: uppercase;
+    animation: textfadein 2.2s;
+    animation-delay: 2.2s;
+    animation-fill-mode: forwards;
+}
+
+.title-second {
+    opacity: 0;
+    position: relative;
+    letter-spacing: 0.5em;
+    font-size: 3vw;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    animation: textfadein 3s;
+    animation-delay: 2.2s;
+    animation-fill-mode: forwards;
+}
+
+@media only screen and (max-width: 600px) {
+    .title-first {
+        font-size: 12vw;
+    }
+
+    .title-second {
+        font-size: 6vw;
+    }
+}
+
+#hero button {
+    transform: scaley(0);
+        opacity: 1;
+    /* grid-area: button; */
+    justify-self: center;
+    /* z-index: 22; */
+    margin: 20px;
+    animation: buttonfadein 2s;
+    animation-delay: 2.2s;
+    animation-fill-mode: forwards;
+    position: relative;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+
+
+
+#hero-image {
+    opacity: 0;
+        transform: scale(0.8);
+    width: 60vw;;
+    place-self: center;
+    
+    justify-self: center;
+    grid-area: text;
+    /* z-index: 1; */
+    animation: imagefadein 0.4s ease-in-out;
+    animation-delay: 2.3s;
+    animation-fill-mode: forwards;
+}
+
+#skills,
+#about {
+    /* padding: 20px; */
+    /* min-height: 100vh; */
+    max-height: 900px;
+    
+}
+
+#hero-items {
+    /* display: grid; */
+    grid-area: text;
+    text-align: center;
+    /* place-items: center; */
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+    z-index: 3;
+    
+}
+
+@keyframes imagefadein {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+
+   100% {
+       opacity: 0.15;
+    transform: scale(1);
+}
+}
+
+@keyframes namefadein {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+
+   100% {
+       opacity: 1;
+}
+}
+
+@keyframes textfadein {
+    0% {
+        
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    40% {
+        
+        opacity: 0;
+        transform: scale(0.5);
+    }
+
+   100% {
+       opacity: 1;
+    transform: scale(1);
+}
+}
+
+@keyframes buttonfadein {
+ 
+    
+    0% {
+        /* border: 2px solid var(--text-color); */
+        transform: scaley(0);
+        opacity: 1;
+    }
+    
+    70% {
+        /* border: 2px solid var(--hover-color); */
+        transform: scaley(0);
+        opacity: 1;
+    }
+
+   100% {
+    /* border: 2px solid var(--text-color); */
+       opacity: 1;
+    transform: scale(1);
+}
+}
+
+
+

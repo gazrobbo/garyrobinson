@@ -1,0 +1,39 @@
+
+    
+    
+    
+    #contact-panel {
+    margin: 0 auto 0 auto;
+    max-width: 600px;
+    display: grid;
+    justify-content: center;
+    background:  var(--vin-color);
+    padding: 20px;
+}
+
+@media only screen and (min-width: 600px) {
+    #contact-panel  {
+        padding: 100px;
+}
+}
+
+.contact-form-text {
+    width: 150px;
+    display: block;
+    ;
+}
+
+.contact-form-input {
+    padding: 3px;
+    width: 300px;
+    max-width: 80vw;
+    background-color: transparent;
+    border: unset;
+    border-bottom: 2px solid var(--hover-color);
+    border-left: 2px solid var(--hover-color);
+    margin-bottom: 25px;
+}
+
+input, textarea {
+    color: var(--text-color);
+  }

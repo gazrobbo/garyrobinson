@@ -1,0 +1,26 @@
+
+
+#about-text-panel {
+
+    display: grid;
+    grid-template-areas: 'text';
+    padding: 20px;
+    background:  var(--vin-color);
+}
+
+@media only screen and (min-width: 600px) {
+    #about-text-panel  {
+        padding: 80px;
+}
+}
+
+.portrait {
+    height: 300px;
+    width: auto;
+    opacity: 0.1;
+}
+
+.padding-bottom {
+    padding-bottom: 20px;
+}
+
