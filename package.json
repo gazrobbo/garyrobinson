@@ -1,0 +1,25 @@
+{
+  "name": "garyrobinson",
+  "version": "1.0.0",
+  "description": "Gary Robinson - Website Developer Portfolio",
+  "main": "index.html",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "prod": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gazrobbo/garyrobinson.git"
+  },
+  "keywords": [],
+  "author": "Gary Robinson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gazrobbo/garyrobinson/issues"
+  },
+  "homepage": "https://github.com/gazrobbo/garyrobinson#readme",
+  "dependencies": {
+    "main.css": "^2.0.0",
+    "normalize.css": "^8.0.1"
+  }
+}
