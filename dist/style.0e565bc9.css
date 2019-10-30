@@ -1269,25 +1269,22 @@ nav {
 }
 
 
-
-    
-    
-    
-    #contact-panel {
+#contact-panel {
     margin: 0 auto 0 auto;
     max-width: 600px;
     display: grid;
     justify-content: center;
-    background:  var(--vin-color);
+    background: var(--vin-color);
     padding: 20px;
 }
 
 @media only screen and (min-width: 600px) {
-    #contact-panel  {
+    #contact-panel {
         padding: 100px;
-}
+    }
 }
 
+/* test */
 .contact-form-text {
     width: 150px;
     display: block;
@@ -1305,9 +1302,10 @@ nav {
     margin-bottom: 25px;
 }
 
-input, textarea {
+input,
+textarea {
     color: var(--text-color);
-  }
+}
 footer {
     height: 100px;
     background: var(--primary-color);

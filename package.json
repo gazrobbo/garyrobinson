@@ -2,10 +2,16 @@
   "name": "garyrobinson",
   "version": "1.0.0",
   "description": "Gary Robinson - Website Developer Portfolio",
-  "main": "index.html",
+  "main": "index.js",
+  "dependencies": {
+    "autoprefixer": "^9.7.0",
+    "cssnano": "^4.1.10",
+    "main.css": "^2.0.0",
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {},
   "scripts": {
-    "dev": "parcel src/index.html",
-    "prod": "parcel build src/index.html"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -17,15 +23,5 @@
   "bugs": {
     "url": "https://github.com/gazrobbo/garyrobinson/issues"
   },
-  "homepage": "https://github.com/gazrobbo/garyrobinson#readme",
-  "dependencies": {
-    "main.css": "^2.0.0",
-    "normalize.css": "^8.0.1"
-  },
-  "devDependencies": {
-    "cssnano": "^4.1.10",
-    "autoprefixer": "^9.5.1",
-    "postcss-modules": "^1.4.1",
-    "sass": "^1.19.0"
-  }
+  "homepage": "https://github.com/gazrobbo/garyrobinson#readme"
 }
