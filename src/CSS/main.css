@@ -12,6 +12,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Hind', sans-serif;
     background-color: var(--primary-color);
@@ -19,10 +23,10 @@ body {
 }
 
 main {
-    scroll-behavior: smooth;
+
     margin-left: auto;
     margin-right: auto;
-    scroll-snap-type: y mandatory;
+    
 
 }
 
@@ -51,6 +55,7 @@ h6,
 }
 
 @media only screen and (min-width: 600px) {
+
     #about-text-panel h2,
     #skills h2,
     #contact-panel h2 {
@@ -110,6 +115,8 @@ a:hover {
 .background {
     background: var(--vin-color);
     background-attachment: fixed;
+    scroll-snap-type: y mandatory;
+    /* overflow-y: scroll; */
 }
 
 #skills,
@@ -121,11 +128,12 @@ a:hover {
     max-width: 1000px;
 }
 
-@media only screen and (min-width: 600px) {  
+@media only screen and (min-width: 600px) {
+
     #skills,
     #about,
     #contact {
-        padding: 100px 90px; 
+        padding: 100px 90px;
     }
 }
 
@@ -146,7 +154,7 @@ button:hover {
     background-color: rgba(255, 255, 255, 0.082);
     transform: scale(1.03);
     border: 2px solid var(--hover-color);
-    color: var(--hover-color); 
+    color: var(--hover-color);
 }
 
 .buttonhover {
@@ -154,21 +162,21 @@ button:hover {
 }
 
 @keyframes buttonhover {
- 
-    
+
+
     0% {
         border-bottom: 2px solid var(--hover-color);
     }
-    
+
     33% {
         border-right: 2px solid var(--hover-color);
     }
-    
+
     33% {
         border-top: 2px solid var(--hover-color);
     }
 
-   100% {
-    border-left: 2px solid var(--hover-color);
-}
+    100% {
+        border-left: 2px solid var(--hover-color);
+    }
 }
