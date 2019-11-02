@@ -65,7 +65,7 @@
     letter-spacing: 0.174em;
     text-transform: uppercase;
     animation: textfadein 2.2s;
-    animation-delay: 2.2s;
+    animation-delay: 2s;
     animation-fill-mode: forwards;
 }
 
@@ -76,8 +76,8 @@
     font-size: 3vw;
     font-family: 'Playfair Display', serif;
     font-style: italic;
-    animation: textfadein 3s;
-    animation-delay: 2.2s;
+    animation: textfadein 2.8s;
+    animation-delay: 2s;
     animation-fill-mode: forwards;
 }
 

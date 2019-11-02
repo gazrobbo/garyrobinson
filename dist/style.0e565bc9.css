@@ -496,7 +496,11 @@ a.repeat:hover {
     --overlay-color: #16181d;
     --hover-color: #00a0fd;
     --text-color: #ffffffee;
-    --vin-color: radial-gradient(circle at 45% 89%, rgba(15, 16, 20, 1), rgba(15, 16, 20, 0) 50%), radial-gradient(circle at 14% 10%, rgba(39, 66, 88, 0.42), rgba(97, 106, 141, 0) 50%), radial-gradient(circle at 57% 2%, #0f1014, #0f1014 50%), radial-gradient(circle at 85% 70%, rgba(15, 16, 20, 1), rgba(15, 16, 20, 0) 50%), radial-gradient(circle at 5% 90%, #0f1014, #0f1014 50%);
+    --vin-color: radial-gradient(circle at 45% 89%, rgba(15, 16, 20, 1), rgba(15, 16, 20, 0) 50%), 
+    radial-gradient(circle at 14% 10%,   rgba(39, 66, 88, 0.644), rgba(97, 106, 141, 0) 50%), 
+    radial-gradient(circle at 57% 2%, #0f1014, #0f1014 50%),
+      radial-gradient(circle at 85% 70%, rgba(15, 16, 20, 1), rgba(15, 16, 20, 0) 50%), 
+      radial-gradient(circle at 5% 90%, #0f1014, #0f1014 50%);
     --menu-speed: 0.6s;
 }
 
@@ -1048,7 +1052,7 @@ nav {
     letter-spacing: 0.174em;
     text-transform: uppercase;
     animation: textfadein 2.2s;
-    animation-delay: 2.2s;
+    animation-delay: 2s;
     animation-fill-mode: forwards;
 }
 
@@ -1059,8 +1063,8 @@ nav {
     font-size: 3vw;
     font-family: 'Playfair Display', serif;
     font-style: italic;
-    animation: textfadein 3s;
-    animation-delay: 2.2s;
+    animation: textfadein 2.8s;
+    animation-delay: 2s;
     animation-fill-mode: forwards;
 }
 
