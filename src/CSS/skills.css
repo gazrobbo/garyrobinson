@@ -28,6 +28,7 @@
     border: unset;
     border-bottom: 2px solid rgba(0, 0, 0, 0.719);
     border-left: 1px solid  rgba(255, 255, 255, 0);
+    -webkit-transition: all 0.3s;
     transition: all 0.3s;
 }
 .skills-card:hover {

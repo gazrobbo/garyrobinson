@@ -31,9 +31,12 @@
     text-transform: uppercase;
     font-size: 15px;
     letter-spacing: 0.174em;
-    animation: namefadein 1s ease-in-out;
-    animation-delay: 2.2s;
-    animation-fill-mode: forwards;   
+    -webkit-animation: namefadein 1s ease-in-out;
+            animation: namefadein 1s ease-in-out;
+    -webkit-animation-delay: 2.2s;
+            animation-delay: 2.2s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;   
 }
 #name>a:hover {
     color: var(--text-color);
@@ -46,6 +49,7 @@
     background-color: var(--hover-color);
     display: block;
     margin-top: 5px;
+    -webkit-transition: all 0.3s;
     transition: all 0.3s;
 }
 
@@ -64,9 +68,12 @@
     font-size: 6vw;
     letter-spacing: 0.174em;
     text-transform: uppercase;
-    animation: textfadein 2.2s;
-    animation-delay: 2s;
-    animation-fill-mode: forwards;
+    -webkit-animation: textfadein 2.2s;
+            animation: textfadein 2.2s;
+    -webkit-animation-delay: 2s;
+            animation-delay: 2s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
 }
 
 .title-second {
@@ -76,9 +83,12 @@
     font-size: 3vw;
     font-family: 'Playfair Display', serif;
     font-style: italic;
-    animation: textfadein 2.8s;
-    animation-delay: 2s;
-    animation-fill-mode: forwards;
+    -webkit-animation: textfadein 2.8s;
+            animation: textfadein 2.8s;
+    -webkit-animation-delay: 2s;
+            animation-delay: 2s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
 }
 
 @media only screen and (max-width: 600px) {
@@ -92,15 +102,19 @@
 }
 
 #hero button {
-    transform: scaley(0);
+    -webkit-transform: scaley(0);
+            transform: scaley(0);
         opacity: 1;
     /* grid-area: button; */
     justify-self: center;
     /* z-index: 22; */
     margin: 20px;
-    animation: buttonfadein 2s;
-    animation-delay: 2.2s;
-    animation-fill-mode: forwards;
+    -webkit-animation: buttonfadein 2s;
+            animation: buttonfadein 2s;
+    -webkit-animation-delay: 2.2s;
+            animation-delay: 2.2s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
     position: relative;
     /* animation: name duration timing-function delay iteration-count direction fill-mode; */
 }
@@ -109,16 +123,20 @@
 
 #hero-image {
     opacity: 0;
-        transform: scale(0.8);
+        -webkit-transform: scale(0.8);
+                transform: scale(0.8);
     width: 60vw;;
     place-self: center;
     
     justify-self: center;
     grid-area: text;
     /* z-index: 1; */
-    animation: imagefadein 0.4s ease-in-out;
-    animation-delay: 2.3s;
-    animation-fill-mode: forwards;
+    -webkit-animation: imagefadein 0.4s ease-in-out;
+            animation: imagefadein 0.4s ease-in-out;
+    -webkit-animation-delay: 2.3s;
+            animation-delay: 2.3s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
 }
 
 #skills,
@@ -141,15 +159,44 @@
     
 }
 
-@keyframes imagefadein {
+@-webkit-keyframes imagefadein {
     0% {
         opacity: 0;
-        transform: scale(0.8);
+        -webkit-transform: scale(0.8);
+                transform: scale(0.8);
     }
 
    100% {
        opacity: 0.15;
-    transform: scale(1);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+}
+}
+
+@keyframes imagefadein {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0.8);
+                transform: scale(0.8);
+    }
+
+   100% {
+       opacity: 0.15;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+}
+}
+
+@-webkit-keyframes namefadein {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+
+   100% {
+       opacity: 1;
 }
 }
 
@@ -166,21 +213,70 @@
 }
 }
 
-@keyframes textfadein {
+@-webkit-keyframes textfadein {
     0% {
         
         opacity: 0;
-        transform: scale(0.5);
+        -webkit-transform: scale(0.5);
+                transform: scale(0.5);
     }
     40% {
         
         opacity: 0;
-        transform: scale(0.5);
+        -webkit-transform: scale(0.5);
+                transform: scale(0.5);
     }
 
    100% {
        opacity: 1;
-    transform: scale(1);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+}
+}
+
+@keyframes textfadein {
+    0% {
+        
+        opacity: 0;
+        -webkit-transform: scale(0.5);
+                transform: scale(0.5);
+    }
+    40% {
+        
+        opacity: 0;
+        -webkit-transform: scale(0.5);
+                transform: scale(0.5);
+    }
+
+   100% {
+       opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+}
+}
+
+@-webkit-keyframes buttonfadein {
+ 
+    
+    0% {
+        /* border: 2px solid var(--text-color); */
+        -webkit-transform: scaley(0);
+                transform: scaley(0);
+        opacity: 1;
+    }
+    
+    70% {
+        /* border: 2px solid var(--hover-color); */
+        -webkit-transform: scaley(0);
+                transform: scaley(0);
+        opacity: 1;
+    }
+
+   100% {
+    /* border: 2px solid var(--text-color); */
+       opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
 }
 }
 
@@ -189,20 +285,23 @@
     
     0% {
         /* border: 2px solid var(--text-color); */
-        transform: scaley(0);
+        -webkit-transform: scaley(0);
+                transform: scaley(0);
         opacity: 1;
     }
     
     70% {
         /* border: 2px solid var(--hover-color); */
-        transform: scaley(0);
+        -webkit-transform: scaley(0);
+                transform: scaley(0);
         opacity: 1;
     }
 
    100% {
     /* border: 2px solid var(--text-color); */
        opacity: 1;
-    transform: scale(1);
+    -webkit-transform: scale(1);
+            transform: scale(1);
 }
 }
 

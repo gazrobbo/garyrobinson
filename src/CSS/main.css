@@ -98,6 +98,7 @@ p {
 
 a {
     text-decoration: none;
+    -webkit-transition: fill 0.3s;
     transition: fill 0.3s;
 }
 
@@ -112,14 +113,16 @@ a:hover {
 }
 
 .shape {
-    box-shadow: inset -2px -2px 6px rgba(0, 0, 0, 0.5), inset 2px 2px 6px rgba(255, 255, 255, 0.055), 3px 3px 3px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: inset -2px -2px 6px rgba(0, 0, 0, 0.5), inset 2px 2px 6px rgba(255, 255, 255, 0.055), 3px 3px 3px rgba(0, 0, 0, 0.5);
+            box-shadow: inset -2px -2px 6px rgba(0, 0, 0, 0.5), inset 2px 2px 6px rgba(255, 255, 255, 0.055), 3px 3px 3px rgba(0, 0, 0, 0.5);
     background: linear-gradient(135deg, var(--overlay-color) 0%, #121318 100%);
 }
 
 .background {
     background: var(--vin-color);
     background-attachment: fixed;
-    scroll-snap-type: y mandatory;
+    -ms-scroll-snap-type: y mandatory;
+        scroll-snap-type: y mandatory;
     /* overflow-y: scroll; */
     /* test */
 }
@@ -152,18 +155,41 @@ button {
     text-transform: uppercase;
     font-size: 13px;
     letter-spacing: 0.174em;
+    -webkit-transition: all 0.1s;
     transition: all 0.1s;
 }
 
 button:hover {
     background-color: rgba(255, 255, 255, 0.082);
-    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+            transform: scale(1.03);
     border: 2px solid var(--hover-color);
     color: var(--hover-color);
 }
 
 .buttonhover {
-    animation: buttonhover 1s ease-in-out;
+    -webkit-animation: buttonhover 1s ease-in-out;
+            animation: buttonhover 1s ease-in-out;
+}
+
+@-webkit-keyframes buttonhover {
+
+
+    0% {
+        border-bottom: 2px solid var(--hover-color);
+    }
+
+    33% {
+        border-right: 2px solid var(--hover-color);
+    }
+
+    33% {
+        border-top: 2px solid var(--hover-color);
+    }
+
+    100% {
+        border-left: 2px solid var(--hover-color);
+    }
 }
 
 @keyframes buttonhover {
