@@ -567,7 +567,16 @@ a.repeat:hover {
     --overlay-color: #16181d;
     --hover-color: #00a0fd;
     --text-color: #ffffffee;
-    --vin-color: radial-gradient(circle at 45% 89%, rgba(15, 16, 20, 1), rgba(15, 16, 20, 0) 50%), 
+
+
+    --vin-color: radial-gradient(circle at 45% 89%, rgb(27, 29, 36), rgba(15, 16, 20, 0) 50%), 
+    radial-gradient(circle at 14% 10%,   rgba(39, 66, 88, 0.644), rgba(97, 106, 141, 0) 50%), 
+    radial-gradient(circle at 57% 2%, #0f1014, #0f1014 50%),
+      radial-gradient(circle at 85% 70%, rgba(15, 16, 20, 1), rgba(15, 16, 20, 0) 50%), 
+      radial-gradient(circle at 5% 90%, #0f1014, #0f1014 50%);
+
+
+    --bg-vin-color: radial-gradient(circle at 45% 89%, rgba(15, 16, 20, 1), rgba(15, 16, 20, 0) 50%), 
     radial-gradient(circle at 14% 10%,   rgba(39, 66, 88, 0.644), rgba(97, 106, 141, 0) 50%), 
     radial-gradient(circle at 57% 2%, #0f1014, #0f1014 50%),
       radial-gradient(circle at 85% 70%, rgba(15, 16, 20, 1), rgba(15, 16, 20, 0) 50%), 
@@ -683,7 +692,7 @@ a:hover {
 }
 
 .background {
-    background: var(--vin-color);
+    background: var(--bg-vin-color);
     background-attachment: fixed;
     -ms-scroll-snap-type: y mandatory;
         scroll-snap-type: y mandatory;
